@@ -77,6 +77,7 @@ class ViewController: UIViewController {
         var dogCount = 1
         
         for i in 1...number*2-1{
+            //控制一行有幾個貓emoji
             for _ in 0..<catCount{
                 content = content+"🐱"
             }
